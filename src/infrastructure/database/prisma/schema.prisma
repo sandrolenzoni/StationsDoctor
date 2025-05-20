@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProfessionalType {
+  MEDICAL
+}
+
+model Professional {
+  id               Int              @id @default(autoincrement())
+  name             String
+  professionalType ProfessionalType
+  crm              String?          @unique
+  speciality       String?
+  consultations    Consultation[]
+
+  @@map("professionals")
+}
+
+model Patient {
+  id            Int            @id @default(autoincrement())
+  name          String
+  cpf           String         @unique
+  birthDate     DateTime
+  consultations Consultation[]
+
+  @@map("patients")
+}
+
+model Consultation {
+  id             Int          @id @default(autoincrement())
+  initialHour    DateTime
+  finalHour      DateTime
+  patientId      Int
+  patient        Patient      @relation(fields: [patientId], references: [id])
+  professionalId Int
+  professional   Professional @relation(fields: [professionalId], references: [id])
+
+  @@map("consultations")
+}

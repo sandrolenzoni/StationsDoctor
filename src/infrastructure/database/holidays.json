@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Confraternização Universal",
+    "date": "01-01"
+  },
+  {
+    "name": "Carnaval",
+    "date": "02-13"
+  },
+  {
+    "name": "Sexta-feira Santa",
+    "date": "03-29"
+  },
+  {
+    "name": "Tiradentes",
+    "date": "04-21"
+  },
+  {
+    "name": "Dia do Trabalho",
+    "date": "05-01"
+  },
+  {
+    "name": "Corpus Christi",
+    "date": "05-30"
+  },
+  {
+    "name": "Independência do Brasil",
+    "date": "09-07"
+  },
+  {
+    "name": "Nossa Senhora Aparecida",
+    "date": "10-12"
+  },
+  {
+    "name": "Finados",
+    "date": "11-02"
+  },
+  {
+    "name": "Proclamação da República",
+    "date": "11-15"
+  },
+  {
+    "name": "Natal",
+    "date": "12-25"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "clinico-geral",
+    "name": "Clínico Geral",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "cardiologista",
+    "name": "Cardiologista",
+    "consultationDurationMinutes": 40
+  },
+  {
+    "id": "dermatologista",
+    "name": "Dermatologista",
+    "consultationDurationMinutes": 25
+  },
+  {
+    "id": "ginecologista",
+    "name": "Ginecologista",
+    "consultationDurationMinutes": 35
+  },
+  {
+    "id": "ortopedista",
+    "name": "Ortopedista",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "pediatra",
+    "name": "Pediatra",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "neurologista",
+    "name": "Neurologista",
+    "consultationDurationMinutes": 60
+  },
+  {
+    "id": "endocrinologista",
+    "name": "Endocrinologista",
+    "consultationDurationMinutes": 40
+  },
+  {
+    "id": "oftalmologista",
+    "name": "Oftalmologista",
+    "consultationDurationMinutes": 20
+  },
+  {
+    "id": "psiquiatra",
+    "name": "Psiquiatra",
+    "consultationDurationMinutes": 50
+  },
+  {
+    "id": "urologista",
+    "name": "Urologista",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "reumatologista",
+    "name": "Reumatologista",
+    "consultationDurationMinutes": 45
+  },
+  {
+    "id": "otorrinolaringologista",
+    "name": "Otorrinolaringologista",
+    "consultationDurationMinutes": 25
+  },
+  {
+    "id": "gastroenterologista",
+    "name": "Gastroenterologista",
+    "consultationDurationMinutes": 40
+  },
+  {
+    "id": "hematologista",
+    "name": "Hematologista",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "infectologista",
+    "name": "Infectologista",
+    "consultationDurationMinutes": 35
+  },
+  {
+    "id": "nefrologista",
+    "name": "Nefrologista",
+    "consultationDurationMinutes": 45
+  },
+  {
+    "id": "pneumologista",
+    "name": "Pneumologista",
+    "consultationDurationMinutes": 30
+  },
+  {
+    "id": "oncologista",
+    "name": "Oncologista",
+    "consultationDurationMinutes": 60
+  }
+]

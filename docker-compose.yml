@@ -1,0 +1,25 @@
+# Example docker-compose.yml
+services:
+  db:
+    image: postgres:17
+    container_name: db_postres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: oixDvemk69
+      POSTGRES_DB: stations_doctor
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  app:
+    build: .
+    container_name: app_stations_doctor
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://postgres:oixDvemk69@db:5432/stations_doctor
+    depends_on:
+      - db
+    command: "pnpm run dev" # or "node --watch index.js"
+volumes:
+  db_data:

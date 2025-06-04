@@ -1,4 +1,4 @@
-# Desafio Técnico Stations Doctor: Agendamento de Consultas Médicas
+#  Agendamento de Consultas Médicas
 
 ## Objetivo
 
